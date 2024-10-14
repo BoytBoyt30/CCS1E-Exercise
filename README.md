@@ -1,2 +1,1 @@
-# index
-Exercises from CCS1
+"# CCS1-E" 
