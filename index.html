@@ -37,12 +37,11 @@
                 color: rgb(255, 255, 255);
                 padding: 10px;
                 width: 100%;
-                text-align: center;
                 margin-top: 20px; 
                 position: fixed;
                 bottom: 0;
             }
-            .headerdiv {
+            #headerdiv {
                 max-width: 50%;
                 margin: 0 auto;
             }
@@ -66,15 +65,19 @@
                 color: rgb(88, 88, 88); 
                 text-decoration: none;
             }
-            #exerciseheading {
+            .exerciseheading {
                 padding-left: 20px;
+            }
+            #footercontact {
+                text-align: center;
+                margin: 0 auto;
             }
         </style>
         <title>Home page</title>
     </head>
     <body>
         <header>
-            <div class="headerdiv">
+            <div id="headerdiv">
                 <hgroup>
                     <h1>Keith Justin C. Mandal</h1>
                     <h3>CCS1 - E</h3>
@@ -87,7 +90,7 @@
         <div id="content">
             <nav>
                 <ul class="exercise">
-                    <h3 id="exerciseheading">CSS</h3>
+                    <h3 class="exerciseheading">CSS</h3>
                     <br>
                     <li><content><a href="Mandal_E2-1.html" target="_blank">Exercise 2.1</a> - <b>It Depends On Whose Hands It's In</b></h3></content></li>
                     <li><content><a href="Mandal_E2-2.html" target="_blank">Exercise 2.2</a> - <b>CSS paragraph overflow & button styles</b></content></li>
@@ -97,12 +100,16 @@
             </nav>
         </div>
         <footer>
-            <h4>Contact Information & Address</h4>
-            <p><address>W Rovira DR, Purok Makugihon
-            <br>Dumaguete City, Negros Oriental, 6200
-            <br><a href="keithjustincmandal@su.edu.ph">keithjustincmandal@su.edu.ph</a>
-            <br>+63 929 152 7783</address></p>
-            &copy; Keith Justin C. Mandal 2024
+            <aside id="footercontact">
+                <h4>Contact Information & Address</h4>
+                <p><address>W Rovira DR, Purok Makugihon
+                <br>Dumaguete City, Negros Oriental, 6200
+                <br><a href="keithjustincmandal@su.edu.ph">keithjustincmandal@su.edu.ph</a>
+                <br>+63 929 152 7783</address></p>
+                &copy; Keith Justin C. Mandal 2024
+            </aside>
+            
+            
         </footer>
     </body>
 </html>
