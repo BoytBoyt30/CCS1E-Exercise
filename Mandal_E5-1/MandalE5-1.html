@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rug Amount Calculator</title>
+        <link rel="stylesheet"  href="MandalE5-1.css">
+        <script src="MandalE5-1.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="htitle">Rug Amount Calculator</h1>
+        </header>
+        <br>
+
+        <div class="parent">
+            <!--length and width input-->
+            <label>Length(m<sup>2</sup>) =</label>
+            <input type="number" id="length">
+            <br><br>
+            <label>Width(m<sup>2</sup>) &nbsp;=</label>
+            <input type="number" id="width">
+            <br><br>
+            <!--enter button-->
+            <button onclick="result()">Enter</button>
+            <br><br>
+            <!--results-->
+            <div class="divresult">
+                
+                <label class="labelresult">Rug size = <span id="rugSize"></span></label>
+                <br><br>
+                <label class="labelresult">Estimated amount of rugs = <span id="rugAmount"></span></label>
+            </div>
+        </div>
+    </body>
+</html>
