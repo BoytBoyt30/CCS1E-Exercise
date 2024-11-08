@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: #333;
+    min-height: 100vh;
 }
 header {
     background: linear-gradient(to left, aquamarine, rgb(74, 74, 250));
@@ -68,4 +69,12 @@ button:hover {
     font-size: 18px;
     display: block;
     margin: 10px 0;
+}
+footer {
+    background-color: rgb(121, 206, 255);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 100%;
 }
