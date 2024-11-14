@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet"  href="Mandal_E5-2.css">
+        <script src="Mandal_E5-2.js"></script>
+    </head>
+    <body>
+        <!--Title-->
+        <header>
+            <h1 class="htitle">Text Replace</h1>
+        </header>
+        <!--div of textarea and buttons-->
+        <div class="parent">
+            <h3>Text Replacer</h3>
+            <textarea id="textArea" rows="25" cols="90"></textarea><br>
+            
+            <label>Find:</label>
+            <input type="text" id="find"><br>
+    
+            <label>Replace:</label>
+            <input type="text" id="replace"><br>
+
+            <button onclick="result()">Replace</button>
+            <button onclick="caseText()">Change case</button>
+            <button onclick="lengthText()">Length</button>
+            <button onclick="includeText()">Include</button>
+            <button onclick="searchText()">Find text</button>
+            <button onclick="clearBox()">Clear</button>
+        </div>
+        <footer>
+            <p>&copy; Keith Justin C. Mandal 2024</p>
+        </footer>
+    </body>
+</html>
