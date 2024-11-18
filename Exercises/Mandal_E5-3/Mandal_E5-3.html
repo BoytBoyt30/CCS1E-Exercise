@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet"  href="Mandal_E5-3.css">
+        <script src="Mandal_E5-3.js"></script>
+    </head>
+    <body class="default" id="myBody">
+        <!--Title-->
+        <header class="defaulth" id="myHeader">
+            <nav class="navh">
+                <h1 class="htitle">Text Replace</h1>
+                    <ul class="default">
+                        <li>Themes:</li>
+                        <button onclick="themeDefault()">Default</button>
+                        <button onclick="themeChristmas()">Christmas</button>
+                        <button onclick="themeCinnamoroll()">Cinnamoroll</button>
+                    </ul>       
+            </nav>
+        </header>
+        <!--div of textarea and buttons-->
+        <div class="defaultdiv" id="myDiv">
+            <h3>Text Replacer</h3>
+            <textarea class="christmasarea" id="textArea" rows="25" cols="90"></textarea><br>
+            
+            <label>Find:</label>
+            <input type="text" id="find"><br>
+    
+            <label>Replace:</label>
+            <input type="text" id="replace"><br>
+
+            <button onclick="result()">Replace</button>
+            <button onclick="caseText()">Change case</button>
+            <button onclick="lengthText()">Length</button>
+            <button onclick="includeText()">Include</button>
+            <button onclick="searchText()">Find text</button>
+            <button onclick="clearBox()">Clear</button>
+        </div>
+        <footer>
+            <span>&copy; Keith Justin C. Mandal 2024</span>
+        </footer>
+    </body>
+</html>

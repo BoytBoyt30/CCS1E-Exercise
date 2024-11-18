@@ -1,0 +1,126 @@
+body.default {
+    background-color: rgb(219, 219, 219);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    min-height: 100vh;
+}
+body.christmas {
+    background: url("Pictures/christmas.jpg");
+    background-size: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    min-height: 100vh;
+}
+body.cinnamoroll {
+    background: url("Pictures/cinna.jpg");
+    background-size: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    min-height: 100vh;
+}
+div.defaultdiv {
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+div.christmasdiv {
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: #B9E5E8;
+    border: 2px solid #7AB2D3;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+div.cinnamorolldiv {
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: #c1e7f5;
+    border: 2px solid #4cb4f0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+textarea {
+    resize: none;
+    border-radius: 5px;
+}
+textarea.defaultarea {
+    background-color: #ffffff;
+    border: 2px solid #919191;
+}
+textarea.christmasarea {
+    background-color: #ffffff;
+    border: 2px solid #7AB2D3;
+}
+textarea.cinnarea {
+    background-color: 	#ffeff2;
+    border: 2px solid #4cb4f0;
+}
+button {
+    background-color:#ffffff;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(190, 190, 190);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+}
+ul.default {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: White;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+input {
+    margin: 3px;
+    border-radius: 5px;
+}
+header.defaulth {
+    background: linear-gradient(to left, aquamarine, rgb(74, 74, 250));
+    color: white;
+    padding: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+header.themed {
+    background-color:rgba(104, 104, 104, 0.253);
+    padding: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+.htitle {
+    color: #ffffff;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    font-size: 24px;
+    font-weight: bold;
+}
+.navh {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    padding: 1px;
+    text-align: center;
+    position: sticky;
+    top: 100%;
+}
