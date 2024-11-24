@@ -1,117 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <style>
-            body{
-                background-color: rgb(247, 247, 247);
-                margin: 0px;
-                margin: 0 auto;
-            }
-            #content {
-                margin: 0 auto;
-                max-width: 50%;
-                background-color: rgba(255, 255, 255, 0.7);
-                padding: 15px;
-                border-radius: 10px;
-            }
-            p {
-                font-size: 16px;
-            }
-            h1 {
-                margin: 0px;
-            }
-            h3 {
-                margin: 0px;
-            }
-            .center {
-                text-align: center;
-            }
-            header {
-                background: linear-gradient(to left, aquamarine, rgb(74, 74, 250));
-                color: white;
-                padding: 5px;  
-                
-            }
-            footer {
-                background: linear-gradient(to left, aquamarine, rgb(74, 74, 250));
-                color: rgb(255, 255, 255);
-                padding: 10px;
-                width: 100%;
-                margin-top: 20px; 
-                position: fixed;
-                bottom: 0;
-            }
-            #headerdiv {
-                max-width: 50%;
-                margin: 0 auto;
-            }
-            .headexercise {
-                text-align: center;
-                margin: 20px;
-                color: rgb(85, 85, 85)
-            }
-            .linehr {
-                width: 40px;
-            }
-            .exercise {
-                list-style-type: none;
-            }
-            a, a:visited {
-                color: rgb(116, 116, 116);
-                font-weight: bold;
-                text-decoration: none;
-            }
-            a:hover {
-                color: rgb(88, 88, 88); 
-                text-decoration: none;
-            }
-            .exerciseheading {
-                padding-left: 20px;
-            }
-            #footercontact {
-                text-align: center;
-                margin: 0 auto;
-            }
-        </style>
-        <title>Home page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <header>
             <div id="headerdiv">
-                <hgroup>
-                    <h1>Keith Justin C. Mandal</h1>
-                    <h3>CCS1 - E</h3>
-                </hgroup>
+                <h1>Keith Justin C. Mandal</h1>
+                <h3>CCS1 - E</h3>
             </div>
         </header>
-        <h2 class="headexercise">List of Exercises</h2>
-        <hr class="linehr">
-        <br>
-        <div id="content">
-            <nav>
-                <ul class="exercise">
-                    <h3 class="exerciseheading">CCS 1 Exercises</h3>
-                    <br>
-                    <li><content><a href="Exercises/Mandal_E2-1/Mandal_E2-1.html" target="_blank">Exercise 2.1</a> - <b>It Depends On Whose Hands It's In</b></h3></content></li>
-                    <li><content><a href="Exercises/Mandal_E2-2.html" target="_blank">Exercise 2.2</a> - <b>CSS paragraph overflow & button styles</b></content></li>
-                    <li><content><a href="Exercises/Mandal_E2-3.html" target="_blank">Exercise 2.3</a> - <b>CSS layouts & positioning property</b></content></li>
-                    <li><content><a href="index.html">Exercise 2.4</a> - <b>Homepage layouts using HTML5</b></content></li>
-                    <li><content><a href="Exercises/Mandal_E5-1/MandalE5-1.html" target="_blank">Exercise 5.1</a> - <b>Rug Calculator using JavaScript</b></content></li>
-                    <li><content><a href="Exercises/Mandal_E5-2/Mandal_E5-2.html" target="_blank">Exercise 5.2</a> - <b>Text editor using JavaScript</b></content></li>
-                    <li><content><a href="Exercises/Mandal_E5-3/Mandal_E5-3.html" target="_blank">Exercise 5.3</a> - <b>Text editor using JavaScript with added DOM functions</b></content></li>
-                </ul>
-            </nav>
-        </div>
+
+        <nav>
+            <h2 class="headexercise">List of Exercises</h2>
+            <hr class="linehr">
+            <ul class="exercise">
+                <li><a href="Exercises/Mandal_E2-1/Mandal_E2-1.html" target="_blank">Exercise 2.1</a> - <b>It Depends On Whose Hands It's In</b></li>
+                <li><a href="Exercises/Mandal_E2-2.html" target="_blank">Exercise 2.2</a> - <b>CSS paragraph overflow & button styles</b></li>
+                <li><a href="Exercises/Mandal_E2-3.html" target="_blank">Exercise 2.3</a> - <b>CSS layouts & positioning property</b></li>
+                <li><a href="index.html">Exercise 2.4</a> - <b>Homepage layouts using HTML5</b></li>
+                <li><a href="Exercises/Mandal_E5-1/MandalE5-1.html" target="_blank">Exercise 5.1</a> - <b>Rug Calculator using JavaScript</b></li>
+                <li><a href="Exercises/Mandal_E5-2/Mandal_E5-2.html" target="_blank">Exercise 5.2</a> - <b>Text editor using JavaScript</b></li>
+                <li><a href="Exercises/Mandal_E5-3/Mandal_E5-3.html" target="_blank">Exercise 5.3</a> - <b>Text editor using JavaScript with added DOM functions</b></li>
+            </ul>
+        </nav>
         <footer>
             <aside id="footercontact">
                 <h4>Contact Information & Address</h4>
-                <p><address>W Rovira DR, Purok Makugihon
-                <br>Dumaguete City, Negros Oriental, 6200
-                <br><a href="mailto:keithjustincmandal@su.edu.ph">keithjustincmandal@su.edu.ph</a>
-                <br>+63 929 152 7783</address></p>
-                &copy; Keith Justin C. Mandal 2024
+                <address>
+                    W Rovira Dr, Purok Makugihon<br>
+                    Dumaguete City, Negros Oriental, 6200<br>
+                    <a href="mailto:keithjustincmandal@su.edu.ph">keithjustincmandal@su.edu.ph</a><br>
+                    +63 929 152 7783
+                </address>
             </aside>
             
+                <p id="copyFooter">&copy; Keith Justin C. Mandal 2024</p>
             
         </footer>
     </body>
